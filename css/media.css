@@ -1,0 +1,46 @@
+@media (min-width: 768px){
+
+    .bg-img{
+        background-image: url(../img/BGTab.png);
+        background-position: top;
+        width: 768px;}
+
+    .menu{
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        padding: 46px 0 130px; }
+
+    nav{
+        padding: 0;}
+
+    .head-title{
+        margin: 0;}
+
+    .bg-img h2{
+        font-size: 52px;
+        margin: 0 auto 26px;}
+
+    .bg-img p{
+        font-size: 24px;
+        margin: 0 auto 32px;}
+
+    .bg-img button{
+        width: 226px;
+        margin-bottom: 234px;}
+
+    .partner-list-item:nth-child(2){
+        order: 3; }
+
+    .partner-list-item:nth-child(3){
+        order: 2;}
+
+    .partner-list-item:nth-child(4){
+        order: 4;}
+}
+@media (min-width: 960px){
+              .bg-img{
+                  width: auto;
+                  background-position: center;
+                  background-size: cover;}
+          }
